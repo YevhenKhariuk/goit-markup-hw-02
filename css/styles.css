@@ -58,3 +58,26 @@ li {
 }
 
 /*---hero---*/
+
+.hero-logo {font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+background-color: #2F303A;}
+
+.hero-btm {font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;}
+
+.hero-btm:hover,
+.hero-btm:focus {
+  background-color: #2196F3;
+  color: #FFFFFF;
+}
+
+/*----*/
