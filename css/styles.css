@@ -9,6 +9,10 @@
   --hero-button-color: #188ce8;
 }
 
+.current {
+  color: var(--third-color);
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--first-color);
