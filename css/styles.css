@@ -9,7 +9,7 @@
   --hero-button-color: #188ce8;
 }
 
-.current {
+.header-item.current {
   color: var(--third-color);
 }
 
@@ -57,6 +57,10 @@ body {
   list-style: none;
 }
 
+.current {
+  color: var(--third-color);
+}
+
 .header-mailtel {
   font-weight: 500;
   font-size: 14px;
@@ -85,20 +89,23 @@ body {
   color: var(--second-color);
 }
 
-.hero-btn,
-.hero-btn:hover,
-.hero-btn:focus {
-  cursor: pointer;
-  background-color: var(--hero-button-color);
-  color: var(--hero-button-color);
-}
-
-.hero-btn-text {
-  font-weight: 700;
+.hero-btn {
+  font-family: "Roboto";
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.87;
   display: flex;
   letter-spacing: 0.06em;
+  border: 0;
+  border-radius: 4px;
+  color: var(--second-color);
+  background-color: var(--third-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hero-button-color);
   color: var(--second-color);
 }
 
@@ -170,7 +177,6 @@ body {
 }
 
 .team-text {
-  font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--fifth-color);
@@ -198,8 +204,11 @@ body {
   background-color: var(--sixth-color);
 }
 
-.adress-link-one {
+.adress {
   font-style: normal;
+}
+
+.adress-link-one {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -212,7 +221,6 @@ body {
 }
 
 .adress-link {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -226,36 +234,35 @@ body {
 
 /*---portfolio---*/
 
-.btn-portfolio-wse:hover,
-.btn-portfolio-wse:focus {
-  background-color: var(--third-color);
-  color: var(--third-color);
-}
-
 .btn-portfolio-wse {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   letter-spacing: 0.06em;
+  border: 0;
+  border-radius: 4px;
+  color: var(--second-color);
   background-color: var(--third-color);
   cursor: pointer;
 }
 
-.wse {
+.btn-portfolio-wse:hover,
+.btn-portfolio-wse:focus {
+  background-color: var(--third-color);
   color: var(--second-color);
 }
 
 .btn-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
   letter-spacing: 0.06em;
+  border: 0;
+  border-radius: 4px;
   color: var(--first-color);
   cursor: pointer;
 }
